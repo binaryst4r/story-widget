@@ -1,9 +1,14 @@
 import logo from './logo.svg';
-import './App.css';
 
+const style = {
+  width: '100%',
+  backgroundColor: 'blue',
+  height: '60px',
+  color: 'white'
+}
 function App() {
   return (
-    <div>
+    <div style={style}>
       <p>This is just a paragraph of stuff im trying to render.</p>
     </div>
   );
